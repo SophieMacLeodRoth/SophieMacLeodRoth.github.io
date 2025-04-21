@@ -399,17 +399,21 @@ button:hover {
 
 .service-item {
     margin-bottom: 10px;
-    padding: 50px;
+    padding: 30px 50px;
     background-color: rgba(250, 250, 250, 0.1);
     transition: all 0.5s;
+    position: relative;
+    min-height: 800px;
 }
 
 .service-item h4 {
     transition: all 0.5s;
+    margin-top: 20px;
 }
 
 .service-item p {
     transition: all 0.5s;
+    margin-top: 10px;
 }
 
 .service-item:hover {
@@ -464,6 +468,58 @@ button:hover {
 
 .service-item:hover .fourth-service-icon {
     background-image: url(../images/fourth-main-icon.png);
+}
+
+.service-item .world-language-icon {
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: -10px;
+    vertical-align: middle;
+}
+
+.service-item .world-language-icon img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.service-item:hover .world-language-icon {
+    color: #1e1e1e;
+}
+
+.service-item .breast-answer-icon {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.service-item .breast-answer-icon img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.service-item .breast-cancer-icon {
+    display: inline-block;
+    margin-left: 280px;
+    margin-top: 120px;
+    vertical-align: middle;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.service-item .breast-cancer-icon img {
+    width: 2500px;
+    height: 2500px;
+    object-fit: contain;
+    position: relative;
+    max-width: none;
+    max-height: none;
+    transform: scale(1.2);
 }
 
 
